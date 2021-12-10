@@ -10,7 +10,7 @@ window.onload=function(){
 }
 function handle() {
     let input = document.getElementById('input-loop').value
-    const formatInput = test.slice(1, test.length - 1).replace(/ /g, '')
+    const formatInput = input.slice(1, input.length - 1).replace(/ /g, '')
     // slice : bỏ 2 dấu ngoặc đầu cuối () 
     //replace :  xóa tất cả space
     const arr = formatInput.split('}.')
