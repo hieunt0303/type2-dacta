@@ -1,9 +1,13 @@
 
-
 // const test  = '(VM i TH {1..n-1}.a(i) <= a(i+1))'
 const test = '(TT i TH {1..n-1}. TT j TH {i+1..n}.a(i) <= a(j))'
 console.log(test);
 let output = ''
+
+window.onload=function(){
+
+    document.getElementById('input-loop').defaultValue  = test
+}
 function handle() {
     let input = document.getElementById('input-loop').value
     const formatInput = test.slice(1, test.length - 1).replace(/ /g, '')
