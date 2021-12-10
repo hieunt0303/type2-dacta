@@ -1,3 +1,5 @@
+## LINK DEMO
+ https://hieunt0303.github.io/type2-dacta/
 ## HƯỚNG ĐI 
 VÍ DỤ : 
 
