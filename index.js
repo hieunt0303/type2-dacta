@@ -41,6 +41,7 @@ function handleForLoop(arrForLoop, conditionIf) {
     
     output += 'return ' + checked + '\n'
     console.log(output);
+    document.getElementById('output-loop').defaultValue = output
 }
 // vd:  stringLoop = TTiTH{1..n-1}  -> param : i || numberStart : 1 ||  numberEnd: n-1
 function getParamFromString(stringLoop) {
